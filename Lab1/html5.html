@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <title>Html5</title>
+        <meta charset="UTF-8">
+        <style>
+            table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+            }
+            </style>
+    </head>
+    
+    <body style="background-color:darkseagreen;">
+        <div>
+            <img src="detalii.png" alt="Poza introductiva sigla formular" height="50" width="50">
+        </div>
+        <table >
+            <tr>
+                <th>Formular solicitare credit</th>
+            </tr>
+            <tr>
+                <td>Nr solicitare: <input type="text" value="1198" readonly disabled size="6" style="text-align: center;"></td>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <th colspan="3">Date Personale</th>
+                        </tr>
+                        <tr>
+                            <td>Nume: <input type="text"> </td>
+                            <td>Prenume: <input type="text"></td>
+                            <td>
+                                <form>
+                                    <input type="radio" name="gen" id="Masculin" checked>
+                                    <label for="Masculin">M</label>
+                                    <input type="radio" name="gen" id="Feminin">
+                                    <label for="Feminin">F</label>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>CNP: <input type="text" pattern="[0-9]{13}" maxlength="13"></td>
+                            <td>Serie: <input type="text"></td>
+                            <td>Nr: <input type="text" pattern="[0-9]{13}"></td>
+                        </tr>                
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form>
+                        <fieldset>
+                            <legend>Adresa</legend>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <label for="tara">Tara:</label>
+                                        <input type="text" id="tara" name="adresa">
+                                    </td>
+                                    <td>
+                                        <label for="oras">Orasul:</label>
+                                        <input type="text" id="oras" name="adresa">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="strada">Strada:</label>
+                                        <input type="text" id="strada" name="adresa" size="40"> 
+                                    </td>
+                                    <td>
+                                        <label for="numar">Nr:</label>
+                                        <input type="text" id="numar" name="adresa"> 
+                                    </td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <th colspan="4">Date financiare</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <form>
+                                    <label for="venituri">Venituri: </label>
+                                    <select id="venituri">
+                                        <option value="mai mici decat 2000">mai mici decat 2000</option>
+                                        <option value="1500-2000"  selected>1500-2000</option>
+                                        <option value="2000-2500">2000-2500</option>
+                                        <option value="2500-3000">2500-3000</option>
+                                        <option value="mai mari decat 3000">mai mari decat 3000</option>
+                                    </select>
+                                </form>
+                            </td>
+                            <td>
+                                <form>
+                                    <label for="nr_rate">Numar rate: </label>
+                                    <select id="nr_rate">
+                                        <option value="3" selected>3</option>
+                                        <option value="6">6</option>
+                                        <option value="9">9</option>
+                                    </select>
+                                </form>
+                            </td>
+                            <td>Dobanda fixa: <input type="text" value="3%" readonly disabled size="6" style="text-align: center;"></td>
+                            <td>
+                                <p>Selectati cuvintele <b>identice</b><br> pentru a dovedi ca nu sunteti robot:</p>
+                                    <select multiple size="6">
+                                        <option value="alb" selected>alb</option>
+                                        <option value="rosu">rosu</option>
+                                        <option value="roz">roz</option>
+                                        <option value="alb">alb</option>
+                                        <option value="negru">negru</option>
+                                        <option value="alb">alb</option>
+                                        <option value="maro">maro</option>
+                                    </select>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <th>De ce faceti acest credit?</th>
+            </tr>
+            <tr>
+                <td>
+                    <textarea rows="3" cols="90"></textarea>
+                </td>
+            </tr>
+        </table>
+        <p><b>Conditii de acordare </b><br>A se citi cu <strong>atentie</strong>!</p>
+        <ol>
+            <li>
+                Acte necesare
+                <ul>
+                    <li>actul de identitate</li>
+                    <li>acord ANAF pentru verificarea veniturilor (il primesti si semnezi la sediul nostru)</li>
+                </ul>
+            </li>
+            <li>
+                Avans, venituri și vârstă
+                <ol type="a" start="3">
+                    <li>ai venituri salariale, pensii sau alte tipuri de venituri stabile de minim 3 luni</li>
+                    <li>ai un avans de minimum 15% pentru imprumut in lei si de minimum 20% pentru credit în euro</li>
+                </ol>
+            </li>
+            <li>
+                Alte detalii
+                <ol type="i" start="5">
+                    <li>ai perioada de acordare de maximum 30 de ani</li>
+                    <li>poti lua creditul împreună cu partenerul/ partenera de viata</li>
+                </ol>
+            </li>
+        </ol>
+        <fieldset>
+            <legend>Prelucrarea datelor cu caracter personal:</legend>
+            <div>
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="email" size="30">
+                <label for="telefon">Telefon: </label>
+                <input type="text" id="telefon" name="telefon" size="30">
+            </div>
+            <p>Doresti sa primesti reclame promotionale pe viitor de la banca noastra?</p>
+            <div>
+              <input type="checkbox" id="yes" name="yes" checked>
+              <label for="yes">Da</label>
+            </div>
+            <div>
+              <input type="checkbox" id="no" name="no">
+              <label for="no">Nu</label>
+            </div>
+        </fieldset>
+        <footer>
+            <h4>Contact: </h4>
+            <a title="contact" href="https://intreb.bancatransilvania.ro/contact/" target="_blank">Click <span><strong>me</strong></span></a>
+        </footer>
+    </body>
+</html>
