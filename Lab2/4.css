@@ -1,0 +1,86 @@
+.menu{
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row;
+}
+.img{
+    height: 84px;
+    width: 84px;
+}
+
+.item-1{
+    background: url(img4.png) 0 84px;
+}
+.item-1:hover{
+    background: url(img4.png) 0 0;
+}
+
+.item-2{
+    background: url(img4.png) calc(84px * -1) 84px;
+}
+.item-2:hover{
+    background: url(img4.png) calc(84px * -1) 0;
+}
+
+.item-3{
+    background: url(img4.png) calc(84px * -2) 84px;
+}
+.item-3:hover{
+    background: url(img4.png) calc(84px * -2) 0;
+}
+
+.item-4{
+    background: url(img4.png) calc(84px * -3) 84px;
+}
+.item-4:hover{
+    background: url(img4.png) calc(84px * -3) 0;
+}
+
+.item-5{
+    background: url(img4.png) calc(84px * -4) 84px;
+}
+.item-5:hover{
+    background: url(img4.png) calc(84px * -4) 0;
+}
+
+.item-6{
+    background: url(img4.png) calc(84px * -5) 84px;
+}
+.item-6:hover{
+    background: url(img4.png) calc(84px * -5) 0;
+}
+
+.item-7{
+    background: url(img4.png) calc(84px * -6) 84px;
+}
+.item-7:hover{
+    background: url(img4.png) calc(84px * -6) 0;
+}
+
+.item-8{
+    background: url(img4.png) calc(84px * -7) 84px;
+}
+.item-8:hover{
+    background: url(img4.png) calc(84px * -7) 0;
+}
+
+.item-9{
+    background: url(img4.png) calc(84px * -8) 84px;
+}
+.item-9:hover{
+    background: url(img4.png) calc(84px * -8) 0;
+}
+
+.item-10{
+    background: url(img4.png) calc(84px * -9) 84px;
+}
+.item-10:hover{
+    background: url(img4.png) calc(84px * -9) 0;
+}
+
+.item-11{
+    background: url(img4.png) calc(84px * -10) 84px;
+}
+.item-11:hover{
+    background: url(img4.png) calc(84px * -10) 0;
+}

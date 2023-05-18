@@ -1,0 +1,27 @@
+.row{
+    display: flex;
+    margin-bottom: 10px;
+}
+.label{
+    width: 70px;
+}
+.input{
+    outline: none;
+    background-image: url(whiteBox.gif);
+    height: 18px;
+    background-size: 22px;
+    background-repeat: repeat;
+    border: solid 1px black;
+    border-right: none;
+    font-family: monospace;
+    padding: 0;
+    padding-left: 3px;
+    font-size: 13px;
+    letter-spacing: 15px;
+}
+.input-name{
+    width: 438px;
+}
+.input-cnp{
+    width: 284px;
+}

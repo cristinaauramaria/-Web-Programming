@@ -1,0 +1,36 @@
+html{
+    height: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+body > *{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+header{
+    height: 100px;
+    background-color: red;
+}
+nav{
+    height: 25px;
+    background-color: yellow;
+}
+main{
+    flex-grow: 1;
+    background-color: green;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+footer{
+    height: 60px;
+    background-color: pink;
+}

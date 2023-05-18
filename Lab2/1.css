@@ -1,0 +1,18 @@
+.parent{
+    display: flex;
+    align-items: stretch;
+    width: 400px;
+    border: solid 1px black;
+}
+.copil{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    text-align: center;
+}
+.img{
+    width: 100px;
+}

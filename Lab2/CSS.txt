@@ -1,0 +1,13 @@
+#para1 {} -> will be applied to the HTML element with id="para1"
+
+.center {} -> all HTML elements with class="center"
+
+p.center {} -> only <p> elements with class="center" 
+
+* {} -> every HTML element
+
+Backgrounds
+    div {  background-color: green;  opacity: 0.3; }
+    body{  background-image: url("bgdesert.jpg");}
+    body{  background-image: url("img_tree.png");  background-repeat: no-repeat(repeat-x;)(repeat-y;);  background-position: right top;}
+    background-attachment: fixed; scroll -> the background image should scroll or be fixed
